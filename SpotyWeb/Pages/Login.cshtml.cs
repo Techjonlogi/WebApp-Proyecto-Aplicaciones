@@ -1,40 +1,35 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SpotyWeb.ModelosBD;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using static SpotyWeb.ResultadosOperaciones.ResultadosLogin;
+using static SpotyWeb.Utilities.Utilities;
 
 namespace SpotyWeb.Pages
 {
     public class LoginModel : PageModel
     {
-        public void OnGet()
+
+        [BindProperty]
+        public string nickname { get; set; }
+
+        [BindProperty]
+        public string Contraseña { get; set; }
+
+        [BindProperty]
+        public ResultadosDeLogin estatus { get; set; }
+
+
+
+        public void OnPost()
         {
-            
-               /* using (SpotyWebBDContext db = new SpotyWebBDContext())
-                {
-                    var usu = db.Usuario.Where((x) => x.Nickname == usuario.Nickname).FirstOrDefault();
-                    if (usu != null)
-                    {
-                        if (usu.Password.Equals(usuario.Password))
-                        {
+            Utilities.Utilities login = new Utilities.Utilities();
+            estatus = login.doLogin(nickname, Contraseña);
+            ViewData["Message"] = $"Hi {estatus} this is the contact page";
 
-                            Callback.GetLoginResult(LoginResults.UsuarioEncontrado);
-                        }
-                        else
-                        {
-                            Callback.GetLoginResult(LoginResults.ContraseñaIncorrecta);
-                        }
-                    }
-                    else
-                    {
-                        Callback.GetLoginResult(LoginResults.NoExisteUrsuario);
-                    }
-                }
 
-            */
         }
     }
 }
