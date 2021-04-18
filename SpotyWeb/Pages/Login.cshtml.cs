@@ -27,7 +27,7 @@ namespace SpotyWeb.Pages
         {
             Utilities.Utilities login = new Utilities.Utilities();
             estatus = login.doLogin(nickname, Contraseña);
-            ViewData["Message"] = $"Hi {estatus} this is the contact page";
+             
 
 
         }
