@@ -7471,19 +7471,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zS17021849\\.nuget\\packages\\": {}
+    "C:\\Users\\jhoni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zS17021849\\Documents\\GitHub\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\SpotyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\jhoni\\Documents\\8vo semestre\\ProyectoAplicaciones\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\SpotyWeb.csproj",
       "projectName": "SpotyWeb",
-      "projectPath": "C:\\Users\\zS17021849\\Documents\\GitHub\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\SpotyWeb.csproj",
-      "packagesPath": "C:\\Users\\zS17021849\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zS17021849\\Documents\\GitHub\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\obj\\",
+      "projectPath": "C:\\Users\\jhoni\\Documents\\8vo semestre\\ProyectoAplicaciones\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\SpotyWeb.csproj",
+      "packagesPath": "C:\\Users\\jhoni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jhoni\\Documents\\8vo semestre\\ProyectoAplicaciones\\WebApp-Proyecto-Aplicaciones\\SpotyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zS17021849\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jhoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
