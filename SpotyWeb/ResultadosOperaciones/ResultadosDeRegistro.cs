@@ -5,7 +5,16 @@ using System.Threading.Tasks;
 
 namespace SpotyWeb.ResultadosOperaciones
 {
-    public class Resultados_de_registro
+    public class ResultadosDeRegistro
     {
+        public enum ResultadosRegistro
+        {
+
+            YaExisteUnRegistro,
+            ErrorDeBD,
+            ErrorDesconocido,
+            RegistradoConExito
+
+        }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using SpotyWeb.ModelosBD;
 
 namespace SpotyWeb.Pages
 {
@@ -30,7 +31,13 @@ namespace SpotyWeb.Pages
 
         public void OnPost()
         {
-            Utilities.Utilities login = new Utilities.Utilities();
+            Utilities.Utilities registro = new Utilities.Utilities();
+            Usuario usu = new Usuario();
+            usu.Nombre = Nombre;
+            usu.NickName = Nickname;
+            usu.Correo = Correo;
+            usu.Contraseña = Contraseña;
+            registro.HacerRegistroUsuario(usu);
         }
     }
 }
