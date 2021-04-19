@@ -1,0 +1,43 @@
+﻿@page
+@model SpotyWeb.Pages.SignUpModel
+@{
+    ViewData["Title"] = "Sign Up";
+}
+<div class="jumbotron">
+    <h1 class="display-4">Spotify</h1>
+    <p class="lead">Registrese para escuchar</p>
+    <hr class="my-4">
+</div>
+
+<form method="POST">
+    <div>
+        <div>
+            <label>Nombre: </label>
+            <input type="text" asp-for="Nombre">
+        </div>
+
+        <div>
+            <label>Nombre de perfil: </label>
+            <input type="text" asp-for="Nickname">
+        </div>
+
+        <div>
+            <label>Correo electrónico: </label>
+            <input type="text" asp-for="Correo">
+        </div>
+
+        <div>
+            <label>Confirmar correo electrónico: </label>
+            <input type="password" asp-for="Correo">
+        </div>
+
+        <div>
+            <label>Contraseña: </label>
+            <input type="password" asp-for="Contraseña">
+        </div>
+
+        <div>
+            <button action="submit" class="btn btn-danger btn-sm" style="margin: 10px">Registrarse</button>
+        </div>
+    </div>
+</form>
