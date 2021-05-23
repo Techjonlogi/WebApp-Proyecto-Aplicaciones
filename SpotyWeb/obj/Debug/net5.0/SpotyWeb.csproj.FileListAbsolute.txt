@@ -16,7 +16,6 @@ C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplic
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.csprojAssemblyReference.cache
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.AssemblyInfoInputs.cache
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.AssemblyInfo.cs
@@ -338,3 +337,4 @@ C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplic
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\Shared\Index.cshtml.g.cs
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\SignUp.cshtml.g.cs
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.csprojAssemblyReference.cache

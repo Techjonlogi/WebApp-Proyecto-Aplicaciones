@@ -22,4 +22,15 @@
     <Folder Include="ModelosBD\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\assets\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\css\Login-Form-Dark.css" />
+    <None Include="wwwroot\assets\css\styles.css" />
+    <None Include="wwwroot\assets\img\152322025_3336941599740926_3115303451383856495_o.jpg" />
+    <None Include="wwwroot\assets\img\MHW-Icono_Legiana.png" />
+    <None Include="wwwroot\assets\img\star-sky.jpg" />
+    <None Include="wwwroot\assets\js\jquery.min.js" />
+  </ItemGroup>
+
 </Project>
