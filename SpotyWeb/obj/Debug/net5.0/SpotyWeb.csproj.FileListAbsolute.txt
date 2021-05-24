@@ -338,3 +338,8 @@ C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplic
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\Shared\Index.cshtml.g.cs
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\SignUp.cshtml.g.cs
 C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\SpotyWeb.csprojAssemblyReference.cache
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\BuscarCanciones.cshtml.g.cs
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\CancionesLista.cshtml.g.cs
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\CrearListaReproduccion.cshtml.g.cs
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\ReproducirCancion.cshtml.g.cs
+C:\Users\jhoni\Documents\8vo semestre\ProyectoAplicaciones\WebApp-Proyecto-Aplicaciones\SpotyWeb\obj\Debug\net5.0\Razor\Pages\VerCancionesAdmin.cshtml.g.cs

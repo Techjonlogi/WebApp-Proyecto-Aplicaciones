@@ -1,0 +1,58 @@
+﻿@page
+@model SpotyWeb.Pages.BuscarCancionesModel
+@{
+}
+
+
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BuscarCancion</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="~/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/css/styles.css">
+    <link rel="stylesheet" href="~/assets/css/Table-With-Search-1.css">
+    <link rel="stylesheet" href="~/assets/css/Table-With-Search.css">
+</head>
+
+<body style="background-color: #133138;">
+    <input class="form-control-plaintext" type="text" value="Ingrese el nombre de la cancion para buscar" readonly="" style="color: rgb(84,88,113);font-size: 30px;font-family: ABeeZee, sans-serif;filter: blur(0px) hue-rotate(0deg) invert(0%);">
+    <div class="col-md-12 search-table-col">
+        <div class="form-group pull-right col-lg-4"><input type="text" class="search form-control" placeholder="Escriba el nombre de la cancion"></div>
+        <div class="table-responsive table-bordered table table-hover table-bordered results">
+            <table class="table table-bordered table-hover">
+                <thead class="bill-header cs">
+                    <tr>
+                        <th id="trs-hd" class="col-lg-2" style="background-color: #7e7dde;width: 400px;">Imagen</th>
+                        <th id="trs-hd" class="col-lg-3" style="background-color: #7e7dde;width: 300px;">Nombre Cancion</th>
+                        <th id="trs-hd" class="col-lg-2" style="background-color: #7e7dde;width: 300px;">Album</th>
+                        <th id="trs-hd" class="col-lg-2" style="background-color: #7e7dde;width: 300px;">Artista</th>
+                        <th id="trs-hd" class="col-lg-2" style="background-color: #7e7dde;width: 300px;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="warning no-result">
+                        <td colspan="12"><i class="fa fa-warning"></i>&nbsp; No Result !!!</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button class="btn btn-success" style="margin-left: 5px;background-color: rgb(140,217,247);" type="submit"><i class="fa fa-play" style="font-size: 15px;"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/Table-With-Search.js"></script>
+</body>
+
+</html>
